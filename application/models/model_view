@@ -1,0 +1,19 @@
+"
+                    <div class=rata_kanan>
+                        <dl class=dl-horizontal>
+                            <dt>
+                                <div class=geser>
+                                <h6>
+                                <strong>Twitter, Inc.</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                <a href=mailto:#>first.last@gmail.com</a>
+                                </h6>
+                                </div>
+                            </dt>
+                                <dd>
+                                    <div class=rata_kanan>
+                                    <span class=badge badge-warning>1</span><span class=badge badge-warning>2</span> <img src='$profil_gravatar' width=45></div>
+                                </dd>
+                            </dl>
+                    </div>
+                    "

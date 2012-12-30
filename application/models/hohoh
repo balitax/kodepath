@@ -1,0 +1,19 @@
+'<blockquote class=pull-left>
+                         <div class=rata_kiri>'.
+                                    '<h3><abbr title=attribute>'.anchor('data/detail/'.$value->mtitle_identifier, $value->mtitle.'</abbr>')
+                                    .'</div>
+                    </blockquote>');
+
+
+$this->table->add_row('<div class=rata_kiri>'.
+                                    '<h3><abbr title=attribute>'.anchor('data/detail/'.$value->mtitle_identifier, $value->mtitle.'</abbr>')
+                                    .'</div>'
+                                    );
+
+$this->table->add_row(word_limiter($value->msinopsis, 15));
+
+$this->table->add_row(''
+
+                                       ."<div class=pic_placing><img src='$profile_pic' width='35' title='user picture' alt='user picture' /></div>"
+                                       .'<div class=rata_kanan background-color=wheat><strong>'.$username.'</strong></div><br>'
+                                       );
